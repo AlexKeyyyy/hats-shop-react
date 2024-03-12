@@ -65,7 +65,7 @@ const Form = () => {
                 className={'input'}
                 type='text'
                 placeholder={'Введите вашу почту'}
-                value={name}
+                value={email}
                 onChange={onChangeEmail}
             />
             <select value={subject} onChange={onChangeSubject} className={'select'}>
