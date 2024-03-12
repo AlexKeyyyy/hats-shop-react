@@ -6,6 +6,7 @@ const Form = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('physical');
+    const {tg} = useTelegram();
 
     const onSendData = useCallback(() => {
         const data = {
@@ -43,11 +44,11 @@ const Form = () => {
     }
 
     const onChangeEmail = (e) => {
-        setName(e.target.value)
+        setEmail(e.target.value)
     }
 
     const onChangeSubject = (e) => {
-        setName(e.target.value)
+        setSubject(e.target.value)
     }
 
     return (
