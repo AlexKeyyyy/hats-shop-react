@@ -5,11 +5,11 @@ import {useTelegram} from "../../hooks/useTg";
 import {useEffect, useCallback} from "react";
 
 const products = [
-    {id: '1', title: 'Шапка', price: 5000, description: 'Крутая шапка'},
-    {id: '2', title: 'Чепчик', price: 2700, description: 'Лучший чепчик'},
-    {id: '3', title: 'Кепочка', price: 2500, description: 'Кепарик'},
-    {id: '4', title: 'Ушанка', price: 2000, description: 'Чтобы ухам тепло'},
-    {id: '5', title: 'Томас Шелби', price: 10000, description: 'Прям с Келиана Мерфи'},
+    {id: '1', title: 'Шапка', price: 5000, description: 'Крутая шапка', image: 'hat.png'},
+    {id: '2', title: 'Чепчик', price: 2700, description: 'Лучший чепчик', image: 'hat.png'},
+    {id: '3', title: 'Кепочка', price: 2500, description: 'Кепарик', image: 'hat.png'},
+    {id: '4', title: 'Ушанка', price: 2000, description: 'Чтобы ухам тепло', image: 'hat.png'},
+    {id: '5', title: 'Томас Шелби', price: 10000, description: 'Прям с Келиана Мерфи', image: 'hat.png'},
 ]
 
 const getTotalPrice = (items = []) => {
