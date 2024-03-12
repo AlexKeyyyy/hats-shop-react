@@ -3,17 +3,26 @@
     flex-direction: column;
     border: 1px solid var(--tg-theme-button-color);
     padding: 10px;
-    width: 50px;
+    width: 200px;
+    /*border: 1px solid var(--tg-theme-button-color);*/
+    /*padding: 10px;*/
+    /*text-align: center;*/
+    /*width: 200px; !* Установите желаемую ширину товара *!*/
+    /*margin: 10px;*/
 }
 
-
 .img {
+    position: relative;
+    overflow: hidden;
+}
+.img img{
     /*width: 50%;*/
     /*background: lightgray;*/
     /*height: auto;*/
     /*margin-bottom: 10px;*/
     /*background: var(--tg-theme-button-color);*/
-    width: auto; /* Автоматическая ширина для сохранения пропорций */
+
+    width: 100px; /* Автоматическая ширина для сохранения пропорций */
     height: auto; /* Автоматическая высота для сохранения пропорций */
     margin-bottom: 10px; /* Добавьте отступ снизу, чтобы разделить изображение и описание товара */
 }
