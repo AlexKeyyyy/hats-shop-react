@@ -8,11 +8,16 @@
 
 
 .img {
-    width: 50%;
-    background: lightgray;
-    height: auto;
-    margin-bottom: 10px;
-    background: var(--tg-theme-button-color);
+    /*width: 50%;*/
+    /*background: lightgray;*/
+    /*height: auto;*/
+    /*margin-bottom: 10px;*/
+    /*background: var(--tg-theme-button-color);*/
+    max-width: 100px; /* Максимальная ширина изображения */
+    max-height: 100px; /* Максимальная высота изображения */
+    width: auto; /* Автоматическая ширина для сохранения пропорций */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-bottom: 10px; /* Добавьте отступ снизу, чтобы разделить изображение и описание товара */
 }
 
 .description {
