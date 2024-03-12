@@ -10,6 +10,9 @@ const products = [
     {id: '3', title: 'Кепочка', price: 2500, description: 'Кепарик', image: './hat.png'},
     {id: '4', title: 'Ушанка', price: 2000, description: 'Чтобы ухам тепло', image: './hat.png'},
     {id: '5', title: 'Томас Шелби', price: 10000, description: 'Прям с Келиана Мерфи', image: './hat.png'},
+    {id: '6', title: 'Томас Шелби', price: 10000, description: 'Прям с Келиана Мерфи', image: './hat.png'},
+    {id: '7', title: 'Томас Шелби', price: 10000, description: 'Прям с Келиана Мерфи', image: './hat.png'},
+    {id: '8', title: 'Томас Шелби', price: 10000, description: 'Прям с Келиана Мерфи', image: './hat.png'},
 ]
 
 const getTotalPrice = (items = []) => {
